@@ -18,5 +18,12 @@ public class Main {
         System.out.println(gerente);
         System.out.println(vendedor);
 
+        Produto livro = new Livro(1, "Livro feito para amantes da arte",
+                56.12, "livro","Como desenhar aquarela", "Suspense");
+        Produto eletronico = new Eletronico(1234, "Celular de ultima geração tela LED", 12_000.00, "Celular", "Iphone", 12.00);
+
+        System.out.println(livro.calcularPrecoFinal());
+        System.out.println(eletronico.calcularPrecoFinal());
+
     }
 }

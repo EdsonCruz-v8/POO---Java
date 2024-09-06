@@ -18,7 +18,6 @@ abstract class Funcionario {
     public String toString(){
         return String.format("%s - Salário: R$ %.2f", nome, salario);
     }
-
     //=======Getters and Setters==========
     public String getNome() {
         return nome;
